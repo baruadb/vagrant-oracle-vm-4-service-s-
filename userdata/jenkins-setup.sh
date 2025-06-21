@@ -13,3 +13,4 @@ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
 sudo apt-get update
  
 sudo apt-get install jenkins -y
+sudo systemctl enable jenkins
